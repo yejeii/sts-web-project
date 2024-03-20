@@ -50,6 +50,12 @@
 		</dependency>
 
 		<!-- DB -->
+	    <!-- ojdbc와 jdbc간 인코딩 방식 -->
+        <dependency>
+            <groupId>com.oracle.ojdbc</groupId>
+            <artifactId>orai18n</artifactId>
+            <version>19.3.0.0</version>
+        </dependency>
 		<!-- HikariCP -->
 		<dependency>
 		   <groupId>com.zaxxer</groupId>

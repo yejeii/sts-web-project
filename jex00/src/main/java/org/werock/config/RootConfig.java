@@ -23,9 +23,9 @@ public class RootConfig {
 		
 		HikariConfig config = new HikariConfig();
 		//config.setDriverClassName("oracle.jdbc.driver.OracleDriver");
-		//config.setJdbcUrl("jdbc:oracle:thin:@localhost:1521:XE");
+		//config.setJdbcUrl("jdbc:oracle:thin:@localhost:1521:ORCL");
 		config.setDriverClassName("net.sf.log4jdbc.sql.jdbcapi.DriverSpy");
-		config.setJdbcUrl("jdbc:log4jdbc:oracle:thin:@localhost:1521:XE");
+		config.setJdbcUrl("jdbc:log4jdbc:oracle:thin:@localhost:1521:ORCL");
 		config.setUsername("book_ex");
 		config.setPassword("book_ex");
 
